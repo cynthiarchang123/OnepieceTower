@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tokyo Onepiece Tower</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/onepiece.css">
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+    <style type="text/css">
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+            line-height: 14pt;
+            font-size: 12pt;
+            font-family: 'Courier New', Courier, monospace,'Microsoft JhengHei';
+            font-weight: lighter;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+        }
+        .col{padding: 4em;}
+        .inline {
+            flex: 1;
+        }
+
+        .left {
+            background: rgb(92, 222, 231);
+        }
+
+        .right {
+            display: block;
+            height: 100vh;
+            overflow: auto;
+            background: url(img/bg_dot.jpg) top left;            
+        }
+
+        footer {display: block;width: 100%;background: #fff;}
+        footer .col{padding: 2em 4em;}
+        .tb1{border-collapse: collapse;border: 1px solid #000;width: 100%;}
+        .tb1 th{background: lightblue;}
+        .tb1 th,.tb1 td{border: 1px solid #000;line-height: 30px;text-align: center;}
+        .fa-chevron-circle-up{position: fixed;right: 30px;bottom: 20px;color: lightblue}
+        .fa-chevron-circle-up:hover{color: lightsalmon;cursor: pointer;}
+    </style>
+</head>
+
+<body>
+
+    <!-- <a href="https://zvlewnkfynuwq0wd0h3v0w-on.drv.tw/HTMLDemo/OnepieceTower/" target="_blank">點選開起海賊王網頁</a> -->
+
+    <!-- 1. 分成左邊的袋子和右邊的袋子 -->
+
+    <!-- 2. 把左邊的袋子放入foreign_parts_left.png；右邊的袋子，放入10張logo_01.png-->
+    <!-- (放入10張logo_01.png是為了撐大袋子，看一下畫面比例) -->
+
+    <!-- 3. 如何固定住左邊的區塊? -->
+
+    <!-- 4. 如何調整元素位置? (position) -->
+
+    <!-- 5. 調整完佈局，接下來應該就OK了。 -->
+    <div class="container">
+        <div class="inline left"><img src="img/foreign_parts_left.png"></div>
+        <div class="inline right">
+            <i class='fas fa-chevron-circle-up' style='font-size:36px'></i>
+            <div class="col">
+                <figure>
+                    <img src="img/logo_01.png">
+                    <figcaption></figcaption>
+                </figure>
+                <figure>
+                    <img src="img/mark_sep_01.png">
+                    <figcaption></figcaption>
+                </figure>
+                <h2>設施介紹</h2>
+                <section>
+                    <p>
+                        來東京冒險吧！<br/>
+                        航海王史上首創！！<br/>
+                        大型主題樂園！！<br/>
+                        草帽一行人的地盤在東京的象徵‧東京鐵塔！<br/>
+                        僅在此才可以體驗的遊樂設施、觀賞現場娛樂表演、享受美食的餐廳和購買限定商品的商店等‧‧‧<br/>
+                        草帽一行人為您準備了很多的冒險，等待您的光臨！！
+                    </p>
+                </section>
+                <figure>
+                    <img src="img/mark_sep_01.png">
+                    <figcaption></figcaption>
+                </figure>
+                <h2>營業資訊</h2>
+                <section>
+                    <p>
+                        營業時間：10:00～22:00　（最後入場時間21:00）<br/>
+                        休假日：全年無休<br/>
+                        官方網站：http://onepiecetower.tokyo/<br/>
+                        特別合作：集英社<br/>
+                        贊助：株式會社Seven Eleven Japan
+                    </p>
+                </section>
+                <figure>
+                    <img src="img/mark_sep_01.png">
+                    <figcaption></figcaption>
+                </figure>
+                <h2>門票</h2>
+                <section>
+                    <figure>
+                        <img src="img/banner_japanican.jpg">
+                        <figcaption></figcaption>
+                    </figure>
+                    <p>
+                        當日票券：成年3,200日圓　兒童（4～12歳）1,600日圓<br/>
+                        預售票：成年3,000日圓　兒童1,500日圓
+                    </p>
+                    <small>
+                        *3歲以下的孩童免費。（需家長陪同）<br/>
+                        *所有價格已含稅。<br/>
+                        *在園區內的餐飲服務另外收費。
+                    </small>
+                    <p>
+                        日本國內的購票方式:<br/>
+                        可在您附近的7-Eleven購買預售票。旅行團請向JTB代理店諮詢。
+                    </p>
+                    <p>
+                        日本以外的海外購票方式:<br/>
+                        網上購票系统目前正在筹备中，預計月下旬公布。詳情將於本官網隨時更新。
+                    </p>
+                    <p>
+                        在園區營業時間內，持有預售票（指定日期）或各種兌換券時，必需在專用服務櫃檯換取護照。換取護照後，即可進入園區。
+                    </p>
+                </section>
+                <figure>
+                    <img src="img/mark_sep_01.png">
+                    <figcaption></figcaption>
+                </figure>
+                <h2>諮詢處</h2>
+                <section>
+                    <p>
+                        開設事務局<br/>
+                        ※窗口業務對應的時間：10:00～17:00（星期六、日和節假日除外）<br/>
+                        info@onepiecetower.tokyo（諮詢時，請註明您的聯繫方式。）
+                    </p>
+                </section>
+                <figure>
+                    <img src="img/mark_sep_01.png">
+                    <figcaption></figcaption>
+                </figure>
+                <h2>交通指南</h2>
+                <section>
+                    <p>
+                        地址：東京都港區芝公園4丁目2－8　東京鐵塔 Foot Town內
+                    </p>
+
+                    <table class="tb1">
+                        <thead>
+                            <tr>
+                                <th>交通路線</th>
+                                <th>下車站 / 出口</th>
+                                <th>所需時間</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>都營大江戸線</td>
+                                <td>赤羽橋站 / 赤羽橋出口</td>
+                                <td>步行5分鐘</td>
+                            </tr>
+                            <tr>
+                                <td>東京Metro日比谷線</td>
+                                <td>神谷町站 / 1號出口</td>
+                                <td>步行7分鐘</td>
+                            </tr>
+                            <tr>
+                                <td>都營三田線</td>
+                                <td>御成門站 / A1號出口</td>
+                                <td>步行6分鐘</td>
+                            </tr>
+                            <tr>
+                                <td>都營淺草線</td>
+                                <td>大門站 / A6號出口</td>
+                                <td>步行10分鐘</td>
+                            </tr>
+                            <tr>
+                                <td>JR山手線</td>
+                                <td>濱松町站 / 北側出口</td>
+                                <td>步行15分鐘</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <h3>・駕車</h3>
+                    <p>
+                        從首都高速都心環狀線芝公園出口行駛7分鐘<br/>
+                        停車場緊臨東京鐵塔，有地上和地下停車場。
+                    </p>
+                    <small>
+                        * 第一個小時 / 600日圓。之後每30分鐘加收300日圓。<br/>
+                        * 停車場營業時間 / 9:00～22:00（最後進場21:45）
+                    </small>
+                </section>
+            </div>
+            <footer>
+                <div class="col">
+                    <img src="img/logo_footer_01.png">
+                    <img src="img/copyright_01.png">
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
